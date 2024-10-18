@@ -1,0 +1,19 @@
+// Family Tree
+digraph {
+	J [label=John]
+	S [label=Susan]
+	P [label=Peter]
+	L [label=Lisa]
+	M [label=Michael]
+	Mary [label=Mary]
+	James [label=James]
+	A [label=Anna]
+	J -> P [label=father]
+	S -> P [label=mother]
+	J -> L [label=father]
+	S -> L [label=mother]
+	P -> M [label=father]
+	Mary -> M [label=mother]
+	James -> A [label=father]
+	L -> A [label=mother]
+}
